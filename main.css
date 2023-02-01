@@ -1,0 +1,158 @@
+* {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background-color: #8A9A5B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.display {
+    font-family: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.quiz1 button {
+    height: 150px;
+    width: 350px;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: white; opacity:0.9;
+    color: #8A9A5B;
+    border-radius: 15px;
+    border: none;
+    box-shadow: rgb(65, 63, 63) 5px 5px 5px;
+    
+}
+
+.quiz2 button {
+    height: 150px;
+    width: 350px;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: white; opacity:0.9;
+    color: #8A9A5B; 
+    border-radius: 15px;
+    border: none;
+    box-shadow: rgb(65, 63, 63) 5px 5px 5px;
+}
+
+.quiz3 button {
+    height: 150px;
+    width: 350px;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: white; opacity:0.9;
+    color:#8A9A5B;
+    border-radius: 15px;
+    border: none;
+    box-shadow: rgb(65, 63, 63) 5px 5px 5px;
+}
+
+#questions{
+    background-color: white;
+    height: 500px;
+    width: 800px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: rgb(65, 63, 63) 5px 5px 5px; 
+    display: none; 
+}
+
+h3 {
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    color:#8A9A5B;
+    padding-top: 50px;
+    text-align: center;
+    text-justify: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+button {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color:#8A9A5B;opacity:0.9;
+    height: 50px;
+    width: 200px;
+    color:white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: rgb(65, 63, 63) 5px 5px 5px;
+    
+}
+
+.displayButton {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    display: none;
+    display: flex;
+    
+}
+
+.textResultat {
+    width: 100%;
+    height: 100px;
+    width: 500px;
+    background-color:#8A9A5B; opacity: 0.9;
+    color: white;
+    border-radius: 15px;
+    box-shadow: rgb(65, 63, 63) 5px 5px 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 60px;
+    margin-left: 480px;
+    margin-top: 260px;
+    
+}
+
+#buttonRetour {
+    position: fixed;
+    margin-left: 630px;
+    margin-top: 20px;
+    
+}
+
+.hidden {
+    display: none;
+
+}
+
+.true{
+    background-color: green; opacity: 0.6;
+    color: white;
+}
+
+.false{
+    background-color: red; opacity:0.6;
+    color: white;
+
+}
